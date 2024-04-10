@@ -1,0 +1,126 @@
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 34px;
+    padding-right: 34px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 115px;
+    padding-right: 115px;
+    width: 100%;
+  }
+}
+
+.advantages {
+  padding-top: 125px;
+  text-align: left;
+  background: linear-gradient (0deg, white 50%, background-pink 50%);
+}
+.advantages .header-h3 {
+  display: none;
+}
+.advantages__list {
+  flex-direction: row;
+  list-style: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.advantages__item {
+  height: 230px;
+  width: 100%;
+}
+.advantages__number {
+  font-family: "Titan One", cursive;
+  color: #d41443;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.advantages__description {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 170%;
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages {
+    background: linear-gradient(0deg, white 61%, background-pink 61%);
+  }
+  .advantages__item {
+    width: 33.3333333333%;
+  }
+  .advantages__number {
+    font-size: 48px;
+    line-height: 55px;
+    text-transform: none;
+  }
+  .advantages__description {
+    font-size: 14px;
+    line-height: 174%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .advantages {
+    background: linear-gradient(0deg, white 61%, background-pink 61%);
+  }
+  .advantages__number {
+    font-size: 58px;
+    line-height: 66px;
+    text-transform: none;
+  }
+  .advantages__description {
+    font-size: 16px;
+    line-height: 176%;
+    letter-spacing: 0.02em;
+  }
+}
+.gallery {
+  height: 200px;
+  background: linear-gradient(0deg, white 50%, background-pink 50%);
+  display: flex;
+  justify-content: center;
+}
+.header-h2 {
+  font-family: "Titan One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.147;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+}
+.header-h2--hidden {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .gallery {
+    background: linear-gradient(0deg, white 61%, background-pink 61%);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery {
+    background: linear-gradient(0deg, white 61%, background-pink 61%);
+  }
+}
